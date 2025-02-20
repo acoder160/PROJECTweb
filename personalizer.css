@@ -1,3 +1,9 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .barra{
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -6,11 +12,20 @@
     gap: 10px;
     justify-content: center;
     width: 120%;
-    
+}
+#styles{
+    border: solid black 0.5px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+.color{
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    border: solid black 0.5px;
 }
 a{
     color: azure;
-}
-.personalizer{
-    
 }
