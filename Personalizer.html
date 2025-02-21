@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="personalizer.css">
 </head>
-<body>
+<body id="body">
     <div class="top">
 
         <div class="barra">
@@ -24,39 +24,38 @@
                     <th>BackGround</th>
                 </tr>
                 <tr>
-                    <th><button onclick="changeRed" class="color"></button></th>
-                    <th><button onclick="changeArial">Arial</button></th>
-                    <th><button onclick="change10">10px</button></th>
-                    <th><button onclick="changeYellow" class="color"></button></th>
+                    <th><button onclick="changeRed()" class="color" id="re"></button></th>
+                    <th><button onclick="changeArial()" id="Sans-serif">Arial</button></th>
+                    <th><button onclick="change10()">10px</button></th>
+                    <th><button onclick="changeYellow()" class="color" id="ye"></button></th>
                 </tr>
                 <tr>
-                    <th><button onclick="changeBlue" class="color"></button></th>
-                    <th><button onclick="changeRobotic">Robot</button></th>
-                    <th><button onclick="change13">13px</button></th>
-                    <th><button onclick="changeViolet" class="color"></button></th>
+                    <th><button onclick="changeBlue()" class="color" id="bl"></button></th>
+                    <th><button onclick="changeRobotic()" id ="Serif">Serif</button></th>
+                    <th><button onclick="change13()">13px</button></th>
+                    <th><button onclick="changeViolet()" class="color" id="vi"></button></th>
                 </tr>
                 <tr>
-                    <th><button onclick="changeGreen" class="color"></button></th>
-                    <th><button onclick="changeTimes">Times</button></th>
-                    <th><button onclick="change17">17px</button></th>
-                    <th><button onclick="changeCyan" class="color"></button></th>
+                    <th><button onclick="changeGreen()" class="color" id="gr"></button></th>
+                    <th><button onclick="changeTimes()" id ="Monospace">Monospace</button></th>
+                    <th><button onclick="change17()">17px</button></th>
+                    <th><button onclick="changeCyan()" class="color" id="cy"></button></th>
                 </tr>
                 <tr>
-                    <th><button onclick="changeBrown" class="color"></button></th>
-                    <th><button onclick="changeSherif">Sherif</button></th>
-                    <th><button onclick="change20">20px</button></th>
-                    <th><button onclick="changeWhite" class="color"></button></th>
+                    <th><button onclick="changeBrown()" class="color" id="br"></button></th>
+                    <th><button onclick="changeSherif()" id="Fantasy">Fantasy</button></th>
+                    <th><button onclick="change20()">20px</button></th>
+                    <th><button onclick="changeWhite()" class="color" id="wh"></button></th>
                 </tr>
                 
             </table>
         </div>
     </div>
     
-    <div class="personalizer"><h1>This is your personalizer</h1>
-        <button id="tablaButton">PERSONALIZAR</button>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium a quisquam voluptate reiciendis accusantium officia quam doloremque inventore placeat id unde molestiae voluptas totam, voluptatem error? Nesciunt quae veritatis dolores!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dolore quae nihil quaerat, a ad animi saepe, dolorem repellat iste provident possimus nesciunt libero vel, aut reiciendis in consequuntur pariatur.</p></div>
-<script src="js.js"></script>       
+    <div class="personalizer"><h1 id="h1">This is your personalizer</h1>
+        <button id="tablaButton">Personalize</button>
+        <p id="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium a quisquam voluptate reiciendis accusantium officia quam doloremque inventore placeat id unde molestiae voluptas totam, voluptatem error? Nesciunt quae veritatis dolores! <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aspernatur numquam ab eligendi, repellat quod alias, exercitationem culpa cumque fugit dolorem quos corrupti voluptatem praesentium obcaecati iure dicta in autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reprehenderit, quidem, impedit quae nisi ducimus sunt delectus corrupti quo perferendis dolorum id nemo molestias praesentium. Itaque quibusdam rem voluptatum!</p></div>
+    <script src="js.js"></script>       
     
 </body>
 </html>
