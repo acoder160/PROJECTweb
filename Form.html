@@ -19,6 +19,8 @@
 
             <label for="email">Email</label><br>
             <input type="email" id="email"><br><br>
+            <button type="button" id="Validate">Validate</button>
+            <p id="validationMessage" style="display: none"></p><br>
 
             <label>Gender</label><br><br>
             <label for="r1">Male</label>
@@ -30,14 +32,15 @@
 
             <label for="options">Country:</label><br>
             <select id="options" name="country">
-                <option value="" disabled selected>Choose an option:</option>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
+                <option value="" disabled selected>Select your country</option>
+                <option value="Spain">Spain</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
             </select>
             <br><br>
             <button type="submit" id="send">Send</button>
         </form>
     </div>
+    <script src="formJs.js"></script>
 </body>
 </html>
