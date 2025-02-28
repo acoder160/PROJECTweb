@@ -37,8 +37,34 @@
                 <option value="France">France</option>
                 <option value="Germany">Germany</option>
             </select>
-            <br><br>
-            <button type="submit" id="send">Send</button>
+            <br>
+            
+            <div id="container" style="display: none;">
+                <label for="provinces">Provinces:</label><br>
+                <select id="provinces" name="province">
+                    <option value="" disabled selected>Select your province</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Seville">Seville</option>
+                    <option value="Navarra">Navarra</option>
+                </select><br>
+            </div>
+
+            <div id="towns-container" style="display: none;">
+                <label for="towns">Town:</label><br>
+                <select id="towns" name="town">
+                    <option value="" disabled selected>Select your town</option>
+                    <option value="Pamplona">Pamplona</option>
+                    <option value="Tudela">Tudela</option>
+                    <option value="Estella">Estella</option>
+                    <option value="Cizur">Cizur</option>
+                </select><br>
+            </div>
+
+            <form action="Personalizer.html">
+                <button type="submit" id="send">Send</button>
+            </form>
         </form>
     </div>
     <script src="formJs.js"></script>
