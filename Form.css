@@ -1,16 +1,22 @@
-
 body {
     background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .barra {
     background-color: #333;
+    width: 100%;
+    padding: 10px 0;
     text-align: center;
 }
 
-a{
+.barra a {
     color: white;
-    padding: 14px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .all {
@@ -19,17 +25,17 @@ a{
     background: white;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"], input[type="email"], select {
+input[type="text"], 
+input[type="email"], 
+select {
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
 #send, #Validate {
@@ -38,8 +44,6 @@ input[type="text"], input[type="email"], select {
     background-color: #007bff;
     color: white;
     font-size: 13px;
+    border: none;
     border-radius: 5px;
 }
-
-
-

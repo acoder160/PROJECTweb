@@ -13,7 +13,7 @@ validateButton.addEventListener("click", function () {
     var hasDot = email.includes(".");
     var lastPartAfterDot = email.split('.').pop(); // the pop is returning the last part after dot(to validate it)
 
-    // The main validate email part: check if it has an @, a dot, and two or more characters after the dot
+    // check if it has an @, a dot, and two or more characters after the dot
     if (hasAtSymbol && hasDot && lastPartAfterDot.length >= 2) {
         message.style.color = "green";
         message.innerHTML = email + " is correct :)";

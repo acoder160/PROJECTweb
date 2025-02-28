@@ -1,3 +1,10 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .top {
     display: flex;
     flex-direction: column;
@@ -9,12 +16,14 @@
     background-color: #333;
     text-align: center;
     width: 100%;
-    max-width: 1200px; /* Prevents it from stretching too much */
+    padding: 10px 0;
 }
 
 .barra a {
     color: white;
     padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 #styles {
@@ -31,7 +40,6 @@
     height: 25px;
     border: solid black 0.5px;
 }
-
 
 #re { background-color: red; }
 #ye { background-color: yellow; }

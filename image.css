@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: static; /* No fixed position, keeps it natural */
+}
+
+.barra a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    background-color: white;
+    margin: 80px auto 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
